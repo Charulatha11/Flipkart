@@ -11,3 +11,5 @@ test('HYR tutorials', async ({ page }) => {
     await frame1.locator('[placeholder="Enter Email"]').fill('charu@gmail.com');
   
 })
+
+
