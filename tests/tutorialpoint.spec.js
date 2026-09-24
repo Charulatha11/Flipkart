@@ -6,5 +6,5 @@ test('TutorialPoint', async ({ page }) => {
     await page.waitForTimeout(9000);
     const frame2 = page.frameLocator('[width="30%"]');
     await frame2.locator('[href="https://www.tutorialspoint.com"]').click();
-    await page.waitForTimeout(9000);
+    await page.waitForTimeout(7000);
 })
