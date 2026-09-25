@@ -10,7 +10,7 @@ test('Try Catch test', async ({ page }) => {
     //     await page.locator('//span[text()="Edit"]').click();
     //     await page.locator('//input[@type="number"]').fill('9876543210');
     //     await page.getByRole('button', { name: 'Continue' }).click();
-    // }
+    }
     catch (error) {
         console.error('An error occurred during the login process:', error);
     }

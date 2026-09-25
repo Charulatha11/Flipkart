@@ -1,0 +1,6 @@
+You clicked a button
+alert
+Do you confirm action?
+confirm
+Please enter your name
+prompt

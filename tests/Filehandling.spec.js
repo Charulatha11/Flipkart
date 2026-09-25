@@ -18,4 +18,3 @@ test ('Resume check', async ({ page }) => {
   .setInputFiles("C:\\Users\\DELL\\Downloads\\atssampleresume.pdf");
   await page.waitForTimeout(5000);
 })
- z
